@@ -1,38 +1,37 @@
 import math
 
-def tm_basic(seq):
+def tm_simple(dna_seq: str) -> float:
    
-    seq = seq.upper()
-    A = seq.count('A')
-    T = seq.count('T')
-    G = seq.count('G')
-    C = seq.count('C')
-    
-    tm = 4 * (G + C) + 2 * (A + T)
+    dna_seq = dna_seq.upper()
+    g = dna_seq.count('G')
+    c = dna_seq.count('C')
+    a = dna_seq.count('A')
+    t = dna_seq.count('T')
+    tm = 4 * (g + c) + 2 * (a + t)
     return tm
 
-def tm_advanced(seq, Na_conc=0.05):
-    
-    seq = seq.upper()
-    length = len(seq)
-    G = seq.count('G')
-    C = seq.count('C')
-    GC_percent = ((G + C) / length) * 100
 
-    tm = 81.5 + 16.6 * math.log10(Na_conc) + 0.41 * GC_percent - (600 / length)
+def tm_accurate(dna_seq: str, na_conc: float = 0.05) -> float:
+  
+    dna_seq = dna_seq.upper()
+    length = len(dna_seq)
+    g = dna_seq.count('G')
+    c = dna_seq.count('C')
+    gc_percent = ((g + c) / length) * 100
+    tm = 81.5 + 16.6 * math.log10(na_conc) + 0.41 * gc_percent - (600 / length)
     return tm
 
-if __name__ == "__main__":
-    dna_seq = input("Enter a DNA sequence: ").strip()
-    if not dna_seq:
-        print("Please enter a valid DNA sequence!")
-        exit()
 
-    basic_tm = tm_basic(dna_seq)
-    adv_tm = tm_advanced(dna_seq)
 
-    print("\n--- DNA Melting Temperature Results ---")
-    print(f"DNA Sequence: {dna_seq}")
-    print(f"Length: {len(dna_seq)} bases")
-    print(f"Basic Formula (Wallace rule): {basic_tm:.2f} °C")
-    print(f"Advanced Formula: {adv_tm:.2f} °C")
+dna = input("Enter DNA sequence: ").strip().upper()
+choice = input("Choose formula (1 for simple, 2 for accurate): ")
+
+if choice == '1':
+    result = tm_simple(dna)
+    print(f"Melting Temperature (Tm): {result:.2f} °C (Simple Formula)")
+elif choice == '2':
+    na_conc = float(input("Enter Na+ concentration (in M, e.g., 0.05): "))
+    result = tm_accurate(dna, na_conc)
+    print(f"Melting Temperature (Tm): {result:.2f} °C (Accurate Formula)")
+else:
+    print("Invalid choice.")
