@@ -1,7 +1,0 @@
-Answer for Step 2(d):
-
-The main issue with this algorithmic approach is that the random samples (reads) do not guarantee full coverage of the original DNA sequence. Some parts of the original sequence may never be sampled, so those regions cannot be rebuilt.
-
-Additionally, the reads are taken in random order and with unknown orientation, which means we do not know where each fragment belongs. Overlaps between fragments can be ambiguous, especially in repeated regions of DNA, leading to incorrect or incomplete reconstruction.
-
-Our simple overlap-joining algorithm is therefore unable to accurately rebuild the original sequence. Real genome assembly algorithms solve these problems by ensuring high coverage, using paired reads, and building overlap or de Bruijn graphs to find the most consistent assembly.
