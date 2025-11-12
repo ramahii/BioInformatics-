@@ -1,0 +1,234 @@
+======================================================================
+INFLUENZA GENOME REPETITION ANALYSIS REPORT
+======================================================================
+
+
+======================================================================
+GENOME 1: CY121680
+======================================================================
+Total unique patterns: 554
+Total repetitions: 1259
+Average frequency: 2.27
+Median frequency: 2.00
+Max frequency: 8
+
+Top 10 most frequent patterns:
+Pattern         Length     Frequency   
+--------------- ---------- ------------
+TGGAAA          6          8           
+AGTTCA          6          6           
+CAAAAT          6          6           
+AACAAA          6          5           
+ACAAAA          6          5           
+AAAATG          6          5           
+AAAGAA          6          5           
+GGAAAT          6          5           
+AAAAAG          6          5           
+GGAAAA          6          4           
+
+======================================================================
+GENOME 2: CY121681
+======================================================================
+Total unique patterns: 167
+Total repetitions: 363
+Average frequency: 2.17
+Median frequency: 2.00
+Max frequency: 5
+
+Top 10 most frequent patterns:
+Pattern         Length     Frequency   
+--------------- ---------- ------------
+GAACAG          6          5           
+ACAGAT          6          4           
+GAATGG          6          4           
+CAGATG          6          4           
+TTGCAG          6          3           
+CACAGA          6          3           
+ATCTTG          6          3           
+CATGGA          6          3           
+ATGGCT          6          3           
+TGGCTA          6          3           
+
+======================================================================
+GENOME 3: CY121682
+======================================================================
+Total unique patterns: 353
+Total repetitions: 777
+Average frequency: 2.20
+Median frequency: 2.00
+Max frequency: 4
+
+Top 10 most frequent patterns:
+Pattern         Length     Frequency   
+--------------- ---------- ------------
+AAATGA          6          4           
+ACCATT          6          4           
+GACAAT          6          4           
+AATTGG          6          4           
+TTGGAA          6          4           
+TGGAAT          6          4           
+AAATCA          6          4           
+AATCAG          6          4           
+ATCAGA          6          4           
+CAGACA          6          4           
+
+======================================================================
+GENOME 4: CY121683
+======================================================================
+Total unique patterns: 453
+Total repetitions: 1032
+Average frequency: 2.28
+Median frequency: 2.00
+Max frequency: 6
+
+Top 10 most frequent patterns:
+Pattern         Length     Frequency   
+--------------- ---------- ------------
+AGAATG          6          6           
+AGGAAA          6          6           
+AATGAT          6          5           
+AGAAGA          6          5           
+CAATGA          6          4           
+GAACAA          6          4           
+CAAATG          6          4           
+AATGGA          6          4           
+GAATGA          6          4           
+AATGTG          6          4           
+
+======================================================================
+GENOME 5: CY121684
+======================================================================
+Total unique patterns: 134
+Total repetitions: 282
+Average frequency: 2.10
+Median frequency: 2.00
+Max frequency: 4
+
+Top 10 most frequent patterns:
+Pattern         Length     Frequency   
+--------------- ---------- ------------
+AATGGA          6          4           
+GAATGG          6          4           
+AGAAAT          6          4           
+ATGTCA          6          3           
+GCTTTC          6          3           
+AAGCGA          6          3           
+CTTGAA          6          3           
+TGAAAG          6          3           
+GAGGAA          6          3           
+GAAATG          6          3           
+
+======================================================================
+GENOME 6: CY121685
+======================================================================
+Total unique patterns: 775
+Total repetitions: 1779
+Average frequency: 2.30
+Median frequency: 2.00
+Max frequency: 9
+
+Top 10 most frequent patterns:
+Pattern         Length     Frequency   
+--------------- ---------- ------------
+ATTGAA          6          9           
+AAGAGA          6          7           
+AGAGAA          6          6           
+CAAAAT          6          5           
+GAAGAC          6          5           
+TTGAAG          6          5           
+AATTGA          6          5           
+GAAGAG          6          5           
+TATATG          6          5           
+CAAAGA          6          5           
+
+======================================================================
+GENOME 7: CY121686
+======================================================================
+Total unique patterns: 922
+Total repetitions: 2154
+Average frequency: 2.34
+Median frequency: 2.00
+Max frequency: 11
+
+Top 10 most frequent patterns:
+Pattern         Length     Frequency   
+--------------- ---------- ------------
+AAAGAA          6          11          
+AATGAA          6          8           
+AATCAA          6          7           
+CAAAGA          6          7           
+AAGAAG          6          7           
+AAACAA          6          6           
+GATGAT          6          6           
+AAAGAAG         7          6           
+CAGAAA          6          5           
+AGAAAA          6          5           
+
+======================================================================
+GENOME 8: CY121687
+======================================================================
+Total unique patterns: 942
+Total repetitions: 2202
+Average frequency: 2.34
+Median frequency: 2.00
+Max frequency: 8
+
+Top 10 most frequent patterns:
+Pattern         Length     Frequency   
+--------------- ---------- ------------
+AGAAGA          6          8           
+AAGGCA          6          7           
+AAGAAG          6          7           
+AGAGAA          6          6           
+AGGCAA          6          6           
+GAGAAG          6          6           
+GAAGAA          6          6           
+GGAGAG          6          5           
+GAGAGA          6          5           
+AAAGAA          6          5           
+
+======================================================================
+GENOME 9: CY113677
+======================================================================
+Total unique patterns: 476
+Total repetitions: 1069
+Average frequency: 2.25
+Median frequency: 2.00
+Max frequency: 5
+
+Top 10 most frequent patterns:
+Pattern         Length     Frequency   
+--------------- ---------- ------------
+TCAAAA          6          5           
+AAACAA          6          5           
+CAAAAT          6          5           
+AAAAAC          6          4           
+GAAATG          6          4           
+TGACAA          6          4           
+CAGCAA          6          4           
+ATCAAA          6          4           
+AAACTG          6          4           
+GGGAGA          6          4           
+
+======================================================================
+GENOME 10: CY113678
+======================================================================
+Total unique patterns: 197
+Total repetitions: 426
+Average frequency: 2.16
+Median frequency: 2.00
+Max frequency: 5
+
+Top 10 most frequent patterns:
+Pattern         Length     Frequency   
+--------------- ---------- ------------
+GAATGG          6          5           
+AATGGG          6          4           
+ATGGGG          6          4           
+CAAATG          6          4           
+ATATTG          6          3           
+AAGATG          6          3           
+TTGCTG          6          3           
+TGCTGG          6          3           
+TCTTGA          6          3           
+CATGGA          6          3           
