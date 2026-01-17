@@ -1,0 +1,38 @@
+{
+  "type": "DNA Sequence Transitions",
+  "sequence_length": 54,
+  "sequence_sample": "ATGCATGCTAGCTAGCTAGCTAATGCTAGCTAGCTAGCTAGCTAATGCTA...",
+  "letters": [
+    "A",
+    "T",
+    "G",
+    "C"
+  ],
+  "transition_matrix": {
+    "A": {
+      "A": 0.14285714285714285,
+      "T": 0.2857142857142857,
+      "G": 0.5714285714285714,
+      "C": 0.0
+    },
+    "T": {
+      "A": 0.7333333333333333,
+      "T": 0.0,
+      "G": 0.26666666666666666,
+      "C": 0.0
+    },
+    "G": {
+      "A": 0.0,
+      "T": 0.0,
+      "G": 0.0,
+      "C": 1.0
+    },
+    "C": {
+      "A": 0.08333333333333333,
+      "T": 0.9166666666666666,
+      "G": 0.0,
+      "C": 0.0
+    }
+  },
+  "description": "Rows: current letter, Columns: next letter probability"
+}
